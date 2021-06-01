@@ -667,7 +667,7 @@
             "version": "v4.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fengyuanchen/cropper.git",
+                "url": "git@github.com:fengyuanchen/cropper.git",
                 "reference": "617d9bdb8688cc4edb3b03bc49a04b83c7facbe7"
             },
             "dist": {
@@ -697,12 +697,12 @@
             "version": "v1.4.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/clue/php-stream-filter.git",
+                "url": "https://github.com/clue/stream-filter.git",
                 "reference": "5a58cc30a8bd6a4eb8f856adf61dd3e013f53f71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clue/php-stream-filter/zipball/5a58cc30a8bd6a4eb8f856adf61dd3e013f53f71",
+                "url": "https://api.github.com/repos/clue/stream-filter/zipball/5a58cc30a8bd6a4eb8f856adf61dd3e013f53f71",
                 "reference": "5a58cc30a8bd6a4eb8f856adf61dd3e013f53f71",
                 "shasum": ""
             },
@@ -741,6 +741,16 @@
                 "stream",
                 "stream_filter_append",
                 "stream_filter_register"
+            ],
+            "funding": [
+                {
+                    "url": "https://clue.engineering/support",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
             ],
             "time": "2019-04-09T12:31:48+00:00"
         },
@@ -2377,6 +2387,10 @@
                 {
                     "name": "floretan",
                     "homepage": "https://www.drupal.org/user/66163"
+                },
+                {
+                    "name": "nord102",
+                    "homepage": "https://www.drupal.org/user/3471419"
                 }
             ],
             "description": "Limit which text formats are available for each field instance.",
@@ -2425,6 +2439,10 @@
                 {
                     "name": "RenatoG",
                     "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
+                    "name": "VladimirAus",
+                    "homepage": "https://www.drupal.org/user/673120"
                 },
                 {
                     "name": "bforchhammer",
@@ -2707,6 +2725,10 @@
                 {
                     "name": "chertzog",
                     "homepage": "https://www.drupal.org/user/806366"
+                },
+                {
+                    "name": "gcb",
+                    "homepage": "https://www.drupal.org/user/1682976"
                 },
                 {
                     "name": "gregcube",
@@ -3733,7 +3755,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-3.4",
-                    "datestamp": "1585763383",
+                    "datestamp": "1620838181",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3813,7 +3835,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-3.4",
-                    "datestamp": "1585763383",
+                    "datestamp": "1620838181",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4495,17 +4517,17 @@
         },
         {
             "name": "drupal/entity_clone",
-            "version": "1.0.0-beta4",
+            "version": "1.0.0-beta6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/entity_clone.git",
-                "reference": "8.x-1.0-beta4"
+                "reference": "8.x-1.0-beta6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_clone-8.x-1.0-beta4.zip",
-                "reference": "8.x-1.0-beta4",
-                "shasum": "4568ca25634d4ce4f142f56156259ba1f0d9f3c1"
+                "url": "https://ftp.drupal.org/files/projects/entity_clone-8.x-1.0-beta6.zip",
+                "reference": "8.x-1.0-beta6",
+                "shasum": "35d04649b6fb349df761abab37506a94f172981f"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -4513,8 +4535,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-beta4",
-                    "datestamp": "1588605099",
+                    "version": "8.x-1.0-beta6",
+                    "datestamp": "1617209997",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4529,6 +4551,14 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "NickDickinsonWilde",
+                    "homepage": "https://www.drupal.org/user/3094661"
+                },
+                {
+                    "name": "colan",
+                    "homepage": "https://www.drupal.org/user/58704"
+                },
                 {
                     "name": "vpeltot",
                     "homepage": "https://www.drupal.org/user/1361586"
@@ -5045,7 +5075,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/field_group.git",
-                "reference": "80ff5992b2d7f9a3c3b8614f54d33f80ada7d11e"
+                "reference": "074b7abf3ee3a1c695aeddd11f518b2e0378b2f3"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -5059,8 +5089,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.1+0-dev",
-                    "datestamp": "1591740591",
+                    "version": "8.x-3.1+20-dev",
+                    "datestamp": "1621179583",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -5099,7 +5129,7 @@
                 "source": "https://git.drupalcode.org/project/field_group",
                 "issues": "https://www.drupal.org/project/issues/field_group"
             },
-            "time": "2020-06-09T21:44:00+00:00"
+            "time": "2021-05-16T15:43:37+00:00"
         },
         {
             "name": "drupal/fieldhelptext",
@@ -5236,6 +5266,10 @@
                     "homepage": "https://www.drupal.org/user/761344"
                 },
                 {
+                    "name": "hideaway",
+                    "homepage": "https://www.drupal.org/user/741876"
+                },
+                {
                     "name": "joaogarin",
                     "homepage": "https://www.drupal.org/user/612814"
                 },
@@ -5282,6 +5316,10 @@
                     "homepage": "https://www.drupal.org/user/761344"
                 },
                 {
+                    "name": "hideaway",
+                    "homepage": "https://www.drupal.org/user/741876"
+                },
+                {
                     "name": "joaogarin",
                     "homepage": "https://www.drupal.org/user/612814"
                 },
@@ -5306,11 +5344,11 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/graphql_metatag.git",
-                "reference": "48140c3f30c00ebd062e324d72b49ec985ea541f"
+                "reference": "b2c8303c31a4bf5e4e15e01b138ccfb8de47aaec"
             },
             "require": {
-                "drupal/core": "~8.0",
-                "drupal/graphql_core": "*",
+                "drupal/core": "^8 || ^9",
+                "drupal/graphql_core": "~3.0",
                 "drupal/metatag": "*"
             },
             "type": "drupal-module",
@@ -5319,30 +5357,42 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1543855680",
+                    "version": "8.x-1.0-alpha2+2-dev",
+                    "datestamp": "1605979090",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
                     "name": "fubhy",
                     "homepage": "https://www.drupal.org/user/761344"
+                },
+                {
+                    "name": "klausi",
+                    "homepage": "https://www.drupal.org/user/262198"
+                },
+                {
+                    "name": "luigisa",
+                    "homepage": "https://www.drupal.org/user/1022312"
+                },
+                {
+                    "name": "pmelab",
+                    "homepage": "https://www.drupal.org/user/555322"
                 }
             ],
-            "description": "Exposes the Drupal Metatag data through a GraphQL schema.",
-            "homepage": "https://github.com/drupal-graphql/graphql-metatag",
+            "description": "Adds support for metatags.",
+            "homepage": "https://www.drupal.org/project/graphql_metatag",
             "support": {
                 "source": "https://git.drupalcode.org/project/graphql_metatag"
             },
-            "time": "2018-06-13T18:24:32+00:00"
+            "time": "2020-11-21T17:17:48+00:00"
         },
         {
             "name": "drupal/health_check_url",
@@ -5777,6 +5827,10 @@
                     "homepage": "https://www.drupal.org/user/1321830"
                 },
                 {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
                     "name": "rjacobs",
                     "homepage": "https://www.drupal.org/user/422459"
                 },
@@ -5895,7 +5949,7 @@
                     "homepage": "https://www.drupal.org/user/409554"
                 },
                 {
-                    "name": "markcarver",
+                    "name": "markhalliwell",
                     "homepage": "https://www.drupal.org/user/501638"
                 }
             ],
@@ -6270,6 +6324,10 @@
             ],
             "authors": [
                 {
+                    "name": "jcnventura",
+                    "homepage": "https://www.drupal.org/user/122464"
+                },
+                {
                     "name": "yannickoo",
                     "homepage": "https://www.drupal.org/user/531118"
                 }
@@ -6497,10 +6555,6 @@
                     "name": "Lucas Hedding",
                     "homepage": "https://www.drupal.org/u/heddn",
                     "role": "Maintainer"
-                },
-                {
-                    "name": "heddn",
-                    "homepage": "https://www.drupal.org/user/1463982"
                 }
             ],
             "description": "CSV source migration.",
@@ -8081,17 +8135,25 @@
             "require": {
                 "drupal/core": "^8 || ^9"
             },
+            "require-dev": {
+                "drush/drush": "^9 || ^10"
+            },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2+3-dev",
-                    "datestamp": "1601560026",
+                    "version": "8.x-1.2+5-dev",
+                    "datestamp": "1617450033",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
                     }
                 },
                 "patches_applied": {
@@ -8102,12 +8164,13 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
-                    "name": "cecrs",
-                    "homepage": "https://www.drupal.org/user/1876384"
+                    "name": "Cecily Borzillo",
+                    "homepage": "https://www.drupal.org/u/cecrs",
+                    "role": "Maintainer"
                 },
                 {
                     "name": "nicola85",
@@ -8120,8 +8183,12 @@
             ],
             "description": "Allows site admins to display a site-wide alert to all users.",
             "homepage": "https://www.drupal.org/project/site_alert",
+            "keywords": [
+                "Drupal"
+            ],
             "support": {
-                "source": "https://git.drupalcode.org/project/site_alert"
+                "source": "http://cgit.drupalcode.org/site_alert",
+                "issues": "https://www.drupal.org/project/issues/site_alert"
             },
             "time": "2020-04-02T17:11:23+00:00"
         },
@@ -8392,7 +8459,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.6",
-                    "datestamp": "1604445381",
+                    "datestamp": "1604445424",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9467,7 +9534,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-5.19",
-                    "datestamp": "1596102131",
+                    "datestamp": "1614791857",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9500,28 +9567,8 @@
                     "role": "Contributor"
                 },
                 {
-                    "name": "fenstrat",
-                    "homepage": "https://www.drupal.org/user/362649"
-                },
-                {
-                    "name": "jrockowitz",
-                    "homepage": "https://www.drupal.org/user/371407"
-                },
-                {
-                    "name": "podarok",
-                    "homepage": "https://www.drupal.org/user/116002"
-                },
-                {
                     "name": "quicksketch",
                     "homepage": "https://www.drupal.org/user/35821"
-                },
-                {
-                    "name": "sanchiz",
-                    "homepage": "https://www.drupal.org/user/1671246"
-                },
-                {
-                    "name": "tedbow",
-                    "homepage": "https://www.drupal.org/user/240860"
                 },
                 {
                     "name": "torotil",
@@ -18582,12 +18629,12 @@
             "version": "1.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "9dc4f203e36f2b486149058bade43c851dd97451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
                 "reference": "9dc4f203e36f2b486149058bade43c851dd97451",
                 "shasum": ""
             },
@@ -20924,11 +20971,6 @@
                 "squizlabs/php_codesniffer": "^2.7"
             },
             "type": "library",
-            "extra": {
-                "patches_applied": {
-                    "Throw meaningful message for duplicate entry.": "https://patch-diff.githubusercontent.com/raw/TravisCarden/behat-table-comparison/pull/7.patch"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "TravisCarden\\BehatTableComparison\\": "src/BehatTableComparison/"
@@ -20949,7 +20991,12 @@
                 "Behat",
                 "gherkin"
             ],
-            "time": "2018-07-03T17:42:23+00:00"
+            "time": "2018-07-03T17:42:23+00:00",
+            "extra": {
+                "patches_applied": {
+                    "Throw meaningful message for duplicate entry.": "https://patch-diff.githubusercontent.com/raw/TravisCarden/behat-table-comparison/pull/7.patch"
+                }
+            }
         },
         {
             "name": "vipnytt/robotstxtparser",
@@ -21130,7 +21177,6 @@
         "drupal/cer": 15,
         "drupal/content_lock": 15,
         "drupal/entity_block": 10,
-        "drupal/entity_clone": 10,
         "drupal/entityqueue": 10,
         "drupal/fast_404": 15,
         "drupal/fieldhelptext": 10,
